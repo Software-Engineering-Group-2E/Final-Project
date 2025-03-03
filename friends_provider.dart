@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/friendmodel.dart';
+import '../models/friend_model.dart';
 
 class FriendsProvider with ChangeNotifier {
   List<Friend> _friends = [];
